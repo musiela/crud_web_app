@@ -1,0 +1,24 @@
+{
+  "name": "crud_web_app",
+  "version": "1.0.0",
+  "description": "A restaurants information API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha --timeout 9999 --exit"
+  },
+  "author": "Musie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mocha": "^6.0.2",
+    "mongoose": "^5.4.19"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0"
+  }
+}
